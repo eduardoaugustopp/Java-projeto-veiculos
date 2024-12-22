@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "internalConsole"  // Configurado para exibir no console de depuração interno
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java-projeto-veiculos_9587e802",
+            "console": "internalConsole"  // Configurado para exibir no console de depuração interno
+        }
+    ]
+}
