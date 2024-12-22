@@ -1,9 +1,93 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Página-1" id="ANtX2OYkP7Iu0WYS1V_Y">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i_w88ZEBr-7NMX00ED24-1" value="Veículo" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="290" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-2" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; motor: Motor&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; rodas: Roda&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt;&amp;nbsp;final chassi: String&lt;br&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;final&lt;/span&gt; ANO_DE_FABRICACAO : &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;hljs-operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;2024&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;static&lt;/span&gt; { ... }&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; abstract void fabricar()&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0" vertex="1" parent="i_w88ZEBr-7NMX00ED24-1">
+          <mxGeometry y="24" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-3" value="Motor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="550" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-4" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; tipo: String&lt;br/&gt;&lt;span class=&quot;hljs-section&quot;&gt;- potencia: double&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i_w88ZEBr-7NMX00ED24-3">
+          <mxGeometry x="15" y="52" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-5" value="Roda" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="550" width="155" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-6" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; material: String&lt;br/&gt;&lt;span class=&quot;hljs-section&quot;&gt;- tamanho: double&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i_w88ZEBr-7NMX00ED24-5">
+          <mxGeometry x="20" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-7" value="Carro" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="350" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-8" value="&lt;div&gt;- numeroDePortas: int&lt;/div&gt;&lt;div&gt;- possuiAirbag: boolean&lt;/div&gt;&lt;div&gt;{ ... }&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;@Override&lt;/span&gt; void fabricar()&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-variable&quot;&gt;@Override&lt;/span&gt;&amp;nbsp;void instalar()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i_w88ZEBr-7NMX00ED24-7">
+          <mxGeometry y="20" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-9" value="Moto" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="350" width="194" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-10" value="&lt;div&gt;- cambioAutomatico: boolean&lt;/div&gt;&lt;div&gt;- possuiBau: boolean&lt;/div&gt;&lt;div&gt;{ ... }&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;@Override&lt;/span&gt; void fabricar()&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-variable&quot;&gt;@Override&lt;/span&gt;&amp;nbsp;void instalar()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i_w88ZEBr-7NMX00ED24-9">
+          <mxGeometry x="7" y="20" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.082;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.174;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i_w88ZEBr-7NMX00ED24-7" target="i_w88ZEBr-7NMX00ED24-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="360" as="sourcePoint" />
+            <mxPoint x="270" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.864;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="i_w88ZEBr-7NMX00ED24-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="350" as="sourcePoint" />
+            <mxPoint x="650" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="550" as="sourcePoint" />
+            <mxPoint x="230" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="i_w88ZEBr-7NMX00ED24-3" target="i_w88ZEBr-7NMX00ED24-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="550" as="sourcePoint" />
+            <mxPoint x="410" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="550" as="sourcePoint" />
+            <mxPoint x="590" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.17;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i_w88ZEBr-7NMX00ED24-5" target="i_w88ZEBr-7NMX00ED24-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="550" as="sourcePoint" />
+            <mxPoint x="530" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-17" value="Componente" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="600" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-18" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; void instalar()&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="638" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.143;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i_w88ZEBr-7NMX00ED24-17" target="i_w88ZEBr-7NMX00ED24-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="720" as="sourcePoint" />
+            <mxPoint x="460" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_w88ZEBr-7NMX00ED24-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i_w88ZEBr-7NMX00ED24-17" target="i_w88ZEBr-7NMX00ED24-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="470" as="sourcePoint" />
+            <mxPoint x="460" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
