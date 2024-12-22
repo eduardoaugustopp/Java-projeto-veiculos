@@ -1,4 +1,4 @@
-package model;
+package br.com.veiculos.model;
 
 public abstract class Veiculo {
     private Motor motor;

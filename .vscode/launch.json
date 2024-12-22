@@ -1,21 +1,21 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "console": "internalConsole"  // Configurado para exibir no console de depuração interno
+            "console": "internalConsole"
         },
         {
             "type": "java",
             "name": "App",
             "request": "launch",
-            "mainClass": "App",
-            "projectName": "Java-projeto-veiculos_9587e802",
-            "console": "internalConsole"  // Configurado para exibir no console de depuração interno
+            "mainClass": "com.veiculos.App",
+            "projectName": "Java-projeto-veiculos",
+            "console": "internalConsole"
         }
     ]
 }
+//mkdir -p src/br/com/veiculos/teste - criar pacote manualmente 

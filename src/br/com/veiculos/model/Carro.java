@@ -1,6 +1,6 @@
-package model;
+package br.com.veiculos.model;
 
-import servico.Componente;
+import br.com.veiculos.servico.Componente;
 
 public class Carro extends Veiculo implements Componente {
 

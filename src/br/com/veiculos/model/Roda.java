@@ -1,4 +1,4 @@
-package model;
+package br.com.veiculos.model;
 
 public class Roda {
     private String material;

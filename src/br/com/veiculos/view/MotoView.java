@@ -1,6 +1,6 @@
-package view;
+package br.com.veiculos.view;
 
-import model.Moto;
+import br.com.veiculos.model.Moto;
 
 public class MotoView {
     private Moto moto;

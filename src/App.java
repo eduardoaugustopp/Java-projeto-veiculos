@@ -1,7 +1,7 @@
-import model.Carro;
-import model.Moto;
-import model.Motor;
-import model.Roda;
+import br.com.veiculos.model.Carro;
+import br.com.veiculos.model.Moto;
+import br.com.veiculos.model.Motor;
+import br.com.veiculos.model.Roda;
 
 public class App {
     public static void main(String[] args) throws Exception {
