@@ -1,6 +1,6 @@
 package br.com.veiculos.model;
 
-import br.com.veiculos.servico.Componente;
+import br.com.veiculos.servic.Componente;
 
 public class Carro extends Veiculo implements Componente {
 
@@ -43,4 +43,11 @@ public class Carro extends Veiculo implements Componente {
         this.possuiAirbag = possuiAirbag;
     }
 
+    @Override
+    public String toString() {
+        return "Carro [numeroDePortas=" + numeroDePortas + ", possuiAirbag=" + possuiAirbag + ", getMotor()="
+                + getMotor() + ", getRodas()=" + getRodas() + ", getChassi()=" + getChassi() + "]";
+    }
+
+  
 }

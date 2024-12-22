@@ -10,7 +10,8 @@ public class CarroController {
     }
 
     public void fabricarCarro(){
-        System.out.println(carroView + "testandoo");
+        System.out.println(carroView + " testandoo");
+        
         
     }
     

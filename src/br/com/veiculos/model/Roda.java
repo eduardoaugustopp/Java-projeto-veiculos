@@ -35,4 +35,11 @@ public class Roda {
         this.tamanho = tamanho;
     }
 
+    @Override
+    public String toString() {
+        return "Roda [getNumeroRodas()=" + getNumeroRodas() + ", getMaterial()=" + getMaterial() + ", getTamanho()="
+                + getTamanho() + "]";
+    }
+
+   
 }

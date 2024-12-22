@@ -1,6 +1,6 @@
 package br.com.veiculos.model;
 
-import br.com.veiculos.servico.Componente;
+import br.com.veiculos.servic.Componente;
 
 public class Moto extends Veiculo implements Componente {
     private boolean cambioAutomatico;
