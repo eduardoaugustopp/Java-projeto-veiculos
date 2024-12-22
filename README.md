@@ -3,7 +3,7 @@
 <h2>�� Sobre</h2>
 <p>Projeto em andamento</p>
 
-> <img alt="" src="../diagrama.png" width="100%">
+> <img alt="" src="./diagrama.png" width="70%">
 
 
 ## �� Tecnologias
