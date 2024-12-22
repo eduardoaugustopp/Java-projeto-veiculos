@@ -37,9 +37,7 @@ public class Roda {
 
     @Override
     public String toString() {
-        return "Roda [getNumeroRodas()=" + getNumeroRodas() + ", getMaterial()=" + getMaterial() + ", getTamanho()="
-                + getTamanho() + "]";
+        return "Número de Rodas: " + getNumeroRodas() + ", Material: " + getMaterial() + ", Tamanho: " + getTamanho();
     }
 
-   
 }

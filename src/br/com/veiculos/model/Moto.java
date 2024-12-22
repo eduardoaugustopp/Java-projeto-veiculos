@@ -13,18 +13,17 @@ public class Moto extends Veiculo implements Componente {
     }
 
     {
-        System.out.println("Bloco de inicializacao toda vez que cria uma moto");
-        System.out.println();
+        System.out.println("\nBloco de inicializacao toda vez que cria uma moto\n");
     }
 
     @Override
     public void fabricar() {
-        System.out.println("Método fabricar de Veículos - Moto Fabricada");
+        System.out.println("Método fabricar da superclasse (Veículos) - Moto\n");
     }
 
     @Override
     public void instalar() {
-        System.out.println("Método da interface Componente na Moto " + Veiculo.getAnoDeFabricacao());
+        System.out.println("Método instalar da interface Componente - Moto ");
     }
 
     public boolean getCambioAutomatico() {
@@ -41,6 +40,12 @@ public class Moto extends Veiculo implements Componente {
 
     public void setPossuiBau(boolean possuiBau) {
         this.possuiBau = possuiBau;
+    }
+
+    @Override
+    public String toString() {
+        return "Câmbio Automático: " + (getCambioAutomatico() ? "Sim" : "Não") +
+                ", Possui Baú: " + (getPossuiBau() ? "Sim" : "Não");
     }
 
 }
