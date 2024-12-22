@@ -8,10 +8,8 @@ public abstract class Veiculo {
     
 
     static {
-        System.out.println("--------CRIAÇÃO DE VEÍCULOS--------");
-        System.out.println();
-        System.out.println("Bloco de inicialização estático na superclasse");
-        System.out.println();
+        System.out.println("Bloco de inicialização estático na superclasse (Veiculo), aparece apenas uma vez");
+        System.out.println("######### FABRICAÇÃO DE VEÍCULOS #########");
     }
 
     public abstract void fabricar();

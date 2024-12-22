@@ -12,14 +12,14 @@ public class Carro extends Veiculo implements Componente {
         this.numeroDePortas = numeroDePortas;
         this.possuiAirbag = possuiAirbag;
     }
+
     {
-        System.out.println("Bloco de inicialização toda vez que cria um carro");
-        System.out.println();
+        System.out.println("\nBloco de inicialização toda vez que cria um carro\n");
     }
 
     @Override
     public void fabricar() {
-        System.out.println("Carro Fabricado: Método fabricar da superclasse");
+        System.out.println("Método fabricar da superclasse (Veiculo) - Carro\n");
     }
 
     @Override
@@ -45,9 +45,8 @@ public class Carro extends Veiculo implements Componente {
 
     @Override
     public String toString() {
-        return "Carro [numeroDePortas=" + numeroDePortas + ", possuiAirbag=" + possuiAirbag + ", getMotor()="
-                + getMotor() + ", getRodas()=" + getRodas() + ", getChassi()=" + getChassi() + "]";
+        return "Carro - Número de Portas: " + getNumeroDePortas() +
+                ", Possui Airbag: " + (getPossuiAirbag() ? "Sim" : "Não");
     }
 
-  
 }
